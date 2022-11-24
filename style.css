@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Roboto:wght@300;900&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+*{
+  margin:0;
+  padding:0;
+}
+.flex{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container{
+   background: #fbfbfa;
+   height: 410px;
+   width: 330px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: Roboto;
+}
+.item{
+  font-size:17px;
+  font-weight: 300;
+  font-family:'Baloo Bhai 2';
+}
+.container h1{
+  margin:15px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+.container input{
+  margin: 2px 0 14px 0;
+  width: 216px;
+  height: 35px;
+  border:2px solid #847575;
+  border-radius: 7px;
+  padding:2px;
+  font-size:15px;
+}
+#btn{
+  background:#5579ff;
+  padding:10px;
+  color:white;
+  height:40px;
+  width:80px;
+  border:0;
+  border-radius: 10px;
+  font-size: 17px;
+  
+}
+#btn:hover{
+  background:#3c62ec;
+  cursor: pointer;
+}
+
+.prevContainer{
+  font-family: Roboto;
+  border:1px solid black;
+  width: 600px;  
+  background: linear-gradient(to bottom, #00ff99 0%, #00ff99 100%);
+}
+.prevContainer table{
+  width:100%;
+  border-collapse: collapse;
+}
+.prevContainer h2{
+  text-align:center;
+  margin:13px;
+  font-family:sans-serif;
+}
+th{
+  text-align:start;
+  padding: 13px 0 13px 15px;
+  background: linear-gradient(to bottom, #87bda7 0%, #49edab 100%);
+}
+td{  
+  padding: 13px 0 13px 15px;
+ font-size:15px;
+}
+.prevContainer table tr{
+  border-bottom: 1px solid black;  
+}
+.prevContainer table td:first-child{
+  font-weight: bolder;
+}
+.prevContainer table td:last-child svg{
+  width:25px;  
+}
+.warning{
+  border:2px solid red !important;
+}
+
+@media screen and (max-width:400px){
+  .prevContainer{
+    width:100vw;
+  }
+}
